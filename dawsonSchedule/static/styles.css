@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    scrollbar-color: #000 #333333;
+    scrollbar-width: thin;
+}
+
+h4 {
+    margin-top: 0.5rem !important;
+}
+
+p {
+    margin-bottom: 0.25rem !important;
+}
+
+i {
+    margin-right: 0.20rem !important;
+}
+
+.disabled-sections-red {
+    color: rgba(220, 0, 0, 0.8) !important;
+}
+.collapser {
+    display:block;
+}
+
+.hide {
+    display: none !important;
+}
+
+.text-pop-bright {
+    color: #FF8800;
+}
+
+#origin {
+    color: #FFFFFF;
+    background-color: #282828;
+    height: 100vh;
+}
+
+#course-input {
+    text-transform: uppercase;
+}
+
+/* NAVBAR CSS */
+.navbar.bg-body-tertiary {
+    background-color: #181818 !important;
+    color: #FFFFFF !important;
+    height: 80px !important;
+}
+
+.navbar-brand {
+    color: #FFFFFF !important;
+    font-size: 25px !important;
+    padding-left: 5px;
+}
+
+/*Main container excluding navbar*/
+.content-area {
+    height: calc(100vh - 80px);
+    overflow: auto;
+    width: 100%;
+    border: none;
+    padding:0 !important;
+}
+
+/*CSS regarding search bar section of left side column*/
+.search-bar {
+    background-color:#3b3b3b;
+    text-align: center;
+    border:none;
+    color: white;
+    outline:none;
+    height:38px;
+}
+
+.courses-added {
+    background-color: #202020;
+}
+
+.course-main-header {
+    padding: 0rem 0.5rem !important;
+    height: 44px !important;
+}
+.course-main-code {
+    padding-left: 0.7rem !important;
+}
+
+#input-courses {
+    background-color: #141414;
+    font-size:22px;
+    height: 38px;
+}
+
+#background-course .light-background {
+    background-color: #343434;
+}
+
+#classes-added {
+    height: calc(100vh - 80px - 38px - 148px);
+}
+
+#search-button {
+    border-radius: 0 !important;
+}
+
+.scrollable-list {
+    max-height: 30vh;
+    overflow-y: auto;
+    align: center;
+    width: 224.81px;
+    position: absolute;
+    margin-top: 38px;
+    border-radius: 0 !important;
+    z-index: 2;
+}
+
+.list-group-item-dark {
+    background-color: #404040 !important;
+    color: white !important;
+    border: none !important;
+}
+
+.list-group-item-dark:hover {
+    background-color: #303030 !important;
+}
+
+.list-group-item-dark:active {
+    transform: scale(0.95) !important;
+}
+
+.section {
+    font-size: 15px;
+    padding-left: 1rem !important;
+}
+
+#course-title-added {
+    font-weight: bold;
+}
+/* CSS for the timetable right side of main container*/
+.timetable {
+    background-color: #404040;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.time-column {
+    display: flex;
+    flex: 1;
+    margin-top: 28px;
+    margin-bottom: 18px;
+}
+
+.time-slot {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding-right: 8px;
+    margin-top: 0px;
+    flex: 1;
+}
+
+.main-grid {
+    border: 3px solid white;
+}
+
+.day-column {
+    flex: 1;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    padding: 5px;
+    text-align: center;
+}
+
+#last-day {
+    border-right: none;
+}
+
+.long-column {
+    border-right: 2px solid white;
+}
+.inner-grid {
+    flex-direction: row;
+    flex: 1;
+}
+
+.grid-cell {
+    flex: 1;
+    border-bottom: 2px solid grey;
+    position: relative;
+}
+
+.bottom-row {
+    border-bottom: none;
+}
+
+.component-schedule {
+    position: absolute;
+    z-index: 1;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.grey-default {
+    background-color: rgba(49, 47, 48, 0.8);
+}
